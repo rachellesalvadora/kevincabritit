@@ -1,0 +1,268 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+  float: center;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  width: 1096px;
+}
+
+.whole {
+  margin: auto;
+  width: 1100px;
+}
+
+/**********
+NAVIGATION
+***********/
+
+
+.navbar-header {
+  height: 100px;
+  margin-top: 12px;
+}
+
+
+.main-top-nav {
+  margin-left: 0;
+  margin-right: 10px;
+  width: inherit;
+  padding: 0;
+}
+
+.kevincabritit {
+  font-size: 50px;
+  font-style: 'Brandon Grotesque';
+}
+
+ul.nav.navbar-nav.navbar-right.navigation-fixed.nav-small {
+  margin-right: 0;
+}
+
+.navigation-fixed {
+  margin-top: 21px;
+  font-size: 15px;
+  padding-top: 13px;
+}
+
+
+.navbar-default {
+  box-shadow: 0px 3px 8px #888888;
+  max-width: auto;
+}
+
+/*************
+jumbotron one
+**************/
+
+.one {
+  background: #fff;
+  margin-top: 24px;
+}
+
+.main:first-child {
+  margin-right: 86px;
+  margin-left: 86px;
+}
+
+.webdev {
+  margin-top: 90px;
+  font-weight: lighter;
+}
+
+.web-dev-desc {
+  margin-top: 40px;
+}
+
+.web-dev-pic {
+  width: 225px;
+  border-radius: 130px;
+  height: 225px;
+  padding: 10px;
+  box-shadow: 0px 3px 8px #888888;
+}
+
+.adjecting {
+  display: inline-block;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin-x: 50%;
+}
+
+.adjecting .front-face, .adjecting .back-face {
+  display: inline-block;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.adjecting .front-face {
+  position: absolute;
+}
+
+.adjecting .back-face {
+  position: relative;
+}
+
+
+/************
+jumbotron two
+*************/
+
+.two {
+  margin-bottom: 0;
+  background: url("Files/winterhills.jpg");
+}
+
+.second {
+  width: 295px;
+  margin: 0 30px;
+}
+
+.second:nth-child(2n) {
+  margin: 0 38px;
+}
+
+.second:last-child {
+  margin-right: 0;
+}
+
+.icon {
+  margin-bottom: 10px;
+}
+
+.second-title {
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  color: #fff;
+}
+
+p.second-desc {
+  font-size: 16px;
+  margin-top: 25px;
+  color: #fff;
+}
+
+/***************
+jumbotron three
+****************/
+
+.three {
+  float: left;
+  width: 100%;
+  padding: 0;
+  background: url("Files/sun.jpg") no-repeat;
+  background-size: 100%;
+  height: 501px;
+  background-position: 0px 193px;
+  margin-bottom: 0;
+}
+
+.three-main-img {
+  width: 166px;
+  height: 260px;
+  border-radius: 166px;
+  margin: 30px 0 20px 97px;
+  box-shadow: 0px 3px 8px #888888;
+  padding: 10px;
+}
+
+
+.three-desc {
+  float: right;
+}
+
+.three-image {
+  float: left;
+}
+
+.social-icon {
+  background-color: #FFFFFF;
+  background: -webkit-gradient(linear, left center, right center, from(rgba(0, 0, 0, 0)), to(#FFFFFF), color-stop(.5,#FFFFFF));
+  background: -moz-linear-gradient(left, #9b847a 0%, #c7a99d 50%, #f5eeeb 100%);
+  width: 500px;
+  height: 132px;
+  float: right;
+}
+.social-img {
+  display: inline;
+  float: right;
+  margin: 46px 25px 0 0;
+}
+
+.social-pic {
+  width: 90px;
+}
+
+.three-title {
+  margin-top: 160px;
+}
+
+.three-goal-desc {
+  margin-top: 43px;
+  width: 378px;
+}
+
+/************
+Jumbotron Four
+*************/
+
+.four {
+display: flex;
+margin-bottom: 0;
+border-bottom: dashed 1px;
+background-color: white;
+}
+
+/************
+Jumbotron Five
+*************/
+
+.five {
+margin-bottom: 0;
+border-bottom: dashed 1px;
+background-color: white;
+}
+
+.skill-slider {
+text-align: center;
+}
+
+.skill-chart {
+width: 638px;
+}
+
+/************
+Jumbotron Six
+*************/
+
+.six {
+margin-bottom: 0;
+border-bottom: dashed 1px;
+background-color: white;
+}
+
+
+
+
+@media (max-width: 836px) {
+
+  .nav-small {
+    font-size: 10px;
+  }
+
+  .main {
+    width: 419px;
+    float: left;
+    margin-right: 0px;
+  }
+
+
+}
